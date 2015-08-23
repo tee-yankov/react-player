@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "classes": true,
+    "defaultParams": true,
+    "restParams": true,
+    "spread": true,
+    "templateStrings": true
+  },
+
+  "rules": {
+    "quotes": [2, "single"],
+    "eqeqeq": 2,
+    "no-unused-vars": 0,
+    "camelcase": 0
+  },
+
+  "globals": {
+    "SC": true
+  }
+}

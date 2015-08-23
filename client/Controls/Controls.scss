@@ -1,0 +1,67 @@
+.controls-container {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  justify-content: flex-start;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.control-play {
+  position: relative;
+  display: inline-block;
+  background-color: darken($darkGray, 10%);
+  font-weight: 600;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.paused {
+  &:after {
+    content: '▶';
+    color: $white;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.playing {
+  &:after {
+    content: '| |';
+    color: $white;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.artist-info-container {
+  margin-left: 1rem;
+  h2 {
+    font-weight: 400;
+    color: $lightGray;
+    margin: 0.5rem 0;
+  }
+  h5 {
+    color: $anotherGray;
+    margin: 0.5rem 0;
+  }
+}
+
+.controls-right-container {
+  position: relative;
+  margin-left: auto;
+  left: -10%;
+  span {
+    color: $anotherGray;
+    margin: 0 0.2rem;
+  }
+}

@@ -14,6 +14,22 @@
   "author": "Theodore Yankov",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.1.3",
+    "font-awesome": "^4.3.0",
     "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "browser-sync-webpack-plugin": "^0.1.3",
+    "css-loader": "^0.15.2",
+    "file-loader": "^0.8.4",
+    "html-loader": "^0.3.0",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.1"
   }
 }

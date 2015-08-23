@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import 'Styles/Palette';
+@import 'MainLayout/MainLayout';
+@import 'Player/Player';
+@import 'CoverArt/CoverArt';
+@import 'Controls/Controls';
+@import 'SeekBar/SeekBar';
+@import 'SearchBar/SearchBar';
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,23 @@
+.seek-bar-container {
+  position: relative;
+  color: $anotherGray;
+  font-size: 0.8em;
+  margin-bottom: 0.5rem;
+}
+
+.seek-bar {
+  display: block;
+  width: 30%;
+  height: 0.3rem;
+  background-color: $hotPink;
+}
+
+.timestamp-left {
+  position: absolute;
+  left: 1rem;
+}
+
+.timestamp-right {
+  position: absolute;
+  right: 1rem;
+}

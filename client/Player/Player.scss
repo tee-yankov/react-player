@@ -1,0 +1,14 @@
+.player-container {
+  display: block;
+  position: absolute;
+  background-color: $white;
+  max-width: 460px;
+  width: 50%;
+  min-height: 50%;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem $darkGray;
+}
